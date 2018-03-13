@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7d2d2379-246f-46bd-bb56-1b14832eab5d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonStepByStep.py</StartupFile>
+    <StartupFile>GettingStarted.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GettingStarted.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonStepByStep.py" />
   </ItemGroup>
   <PropertyGroup>
